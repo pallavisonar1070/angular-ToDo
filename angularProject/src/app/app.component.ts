@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularProject';
+  public counter = 0;
+
+  public increment() {
+    this.counter += 1;
+  }
 }
